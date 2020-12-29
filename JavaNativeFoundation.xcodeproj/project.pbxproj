@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2C69E26310782500003EB656 /* JNFDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C69E261107824FF003EB656 /* JNFDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C69E26410782500003EB656 /* JNFDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69E26210782500003EB656 /* JNFDate.m */; };
-		3F012B3323DEDA5A00B98AC3 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D6A5FE840307C02AAC07 /* AppKit.framework */; };
 		3F012B3423DEDA9600B98AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
 		3F012B3623DEDABE00B98AC3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F012B3523DEDABE00B98AC3 /* CoreFoundation.framework */; };
 		8900DAEB0CB0365300EE572C /* JNFTypeCoercion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8900DAE90CB0365300EE572C /* JNFTypeCoercion.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -89,7 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F012B3323DEDA5A00B98AC3 /* AppKit.framework in Frameworks */,
 				3F012B3623DEDABE00B98AC3 /* CoreFoundation.framework in Frameworks */,
 				3F012B3423DEDA9600B98AC3 /* Foundation.framework in Frameworks */,
 			);

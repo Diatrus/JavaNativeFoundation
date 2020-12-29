@@ -30,7 +30,7 @@
 
 #import "JNFRunLoop.h"
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 
 NSString *JNFRunLoopDidStartNotification = @"JNFRunLoopDidStartNotification";
@@ -42,7 +42,7 @@ static NSArray *sPerformModes = nil;
 
 + (void)initialize {
     if (sPerformModes) return;
-    sPerformModes = [[NSArray alloc] initWithObjects:NSDefaultRunLoopMode, NSModalPanelRunLoopMode, NSEventTrackingRunLoopMode, AWTRunLoopMode, nil];
+    sPerformModes = [[NSArray alloc] initWithObjects:NSDefaultRunLoopMode, AWTRunLoopMode, nil];
 }
 
 + (NSString *)javaRunLoopMode {

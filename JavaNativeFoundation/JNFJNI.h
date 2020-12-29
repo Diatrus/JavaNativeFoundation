@@ -46,7 +46,7 @@
 #import <os/availability.h>
 #import <sys/cdefs.h>
 
-#define JNF_EXPORT __attribute__ ((visibility ("default"))) API_UNAVAILABLE(ios)
+#define JNF_EXPORT __attribute__ ((visibility ("default")))
 
 #import <JavaNativeFoundation/JNFException.h>
 #import <JavaNativeFoundation/JNFAutoreleasePool.h>
